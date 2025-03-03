@@ -1,15 +1,12 @@
 import React from 'react';
+import './Slide.css';
 
 function Slide({ title, content }) {
   return (
-    <article>
-      <header>
-        <h1>{title}</h1>
-      </header>
-      <section>
-        <p>{content}</p>
-      </section>
-    </article>
+    <div className="slide">
+      <h2 className="slide-title">{title}</h2>
+      <p className="slide-content">{content}</p>
+    </div>
   );
 }
 

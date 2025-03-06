@@ -52,3 +52,12 @@ p {
 .nav-button:hover {
   background: rgba(255, 255, 255, 0.4);
 }
+.diagram-image {
+  max-width: 100%;  /* Ensures the image is responsive */
+  height: 600px;     /* Maintains aspect ratio */
+  display: block;   /* Removes extra space below the image */
+  margin: 20px auto; /* Centers the image */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Optional: Adds a shadow */
+}
+
